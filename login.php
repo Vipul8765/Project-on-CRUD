@@ -72,6 +72,7 @@ $select="SELECT * FROM employee WHERE emp_email='$email'";
 }
 
 ?>
+<a class="btn btn-primary" href="add_emp.php">Create Lgoin Details</a>
 </div>
 </body>
 </html>

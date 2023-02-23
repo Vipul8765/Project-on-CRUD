@@ -62,12 +62,14 @@ if(isset($_GET['del'])){
         <td><?php echo $emp_DepDetails;?></td>
         <td><a class="btn btn-danger"href="view_emp.php?del=<?php echo $emp_id;?>">Delete</a></td> 
         <td><a class="btn btn-success"href="edit_emp.php?edit=<?php echo $emp_id;?>">Update</a></td> 
+        
     
       </tr>
       <?php } ?>
       
     </tbody>
   </table>
+  <a class="btn btn-primary mt-3" href="logout.php">Logout</a>
 </div>
 
 </body>

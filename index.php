@@ -21,6 +21,7 @@ if(!isset($_SESSION['email'])){
 <div class="container">
   <h2>Welcome</h2>
   <a class="btn btn-danger" href="logout.php">Logout</a>
+  <a class="btn btn-primary" href="view_emp.php">View Employee</a>
 </div>
 </body>
 </html>

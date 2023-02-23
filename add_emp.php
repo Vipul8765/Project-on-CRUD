@@ -68,6 +68,7 @@ $insert="INSERT INTO employee(emp_id,emp_name,emp_email,emp_password,emp_mobile,
 $run_insert=mysqli_query($conn,$insert);
 if($run_insert===true){
     echo "sucess";
+    echo "<script>window.open('login.php','_self');</script>";
 }
 else{
     echo " failed";
